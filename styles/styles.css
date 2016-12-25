@@ -1,0 +1,57 @@
+.cuadrado{
+	padding: 20px;
+	margin: 10px 30px 25px 35px;
+	margin: 30px 50px;
+	color: white;
+	width: 100px;
+	height: 40px;
+	background: red;
+	border:2px solid black;
+	display: inline-block;
+	box-sizing: border-box; /*ajusta todo de acuerdo a la medida de cada div??*/
+}
+a{
+	display: block;
+}
+li{
+	display: inline;
+}
+li:nth-child(2){
+	display: none;
+}
+/*Position*/
+
+.cuadrado2{
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+	background: blue;
+	display: inline-block; /*convierte los elementos de block a inline*/
+}
+.relativo{
+	background: red;
+	top: 70px;
+	left: 40px;
+	position: relative;
+}
+.fijo{
+	background: yellow;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 4; /*se superpone segun el nro final*/
+}
+.absoluto{
+	background: green;
+	position: absolute;
+	left: 30px;
+}
+/*Foltar elementos*/
+
+.cuadrado3{
+	height: 100px;
+	width: 100px;
+	background: yellow;
+	margin: 10px;
+	float: left;
+}

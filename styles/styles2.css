@@ -1,0 +1,46 @@
+nav{
+	background: yellow;
+	overflow: auto;
+	padding: 20px 0px;
+}
+.menu{
+	float: right;
+}
+.menu li{
+	display: inline-block;
+	padding: 0px 10px
+}
+nav h2{
+	display: inline-block;
+}
+.contenedor{
+	max-width: 900px;
+	margin: auto;
+}
+header{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
+background: #b4ddb4; /* Old browsers */
+background: -moz-linear-gradient(top,  #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+padding: 50px 0px;
+}
+h1{
+	font-size: 40px;
+	color: white;
+}
+h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 25px 0px;
+}
+.servicios article{
+	display: inline-block;
+	text-align: center;
+	width: 49.5%;
+}
+.servicios article h4{
+	font-size: 25px;
+	font-weight: bold;
+}
